@@ -2,7 +2,8 @@
 ## functions do
 
 ## Write a short comment describing this function
-
+## This function creates an interface to obtain the cached
+## inverse matrix
 makeCacheMatrix <- function(x = matrix()) {
         m <- NULL
         set <- function(y) {
@@ -18,7 +19,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 ## Write a short comment describing this function
-
+## This function obtain the cached ## inverse matrix
+## or calculates a new one
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
         m <- x$getinverse()
